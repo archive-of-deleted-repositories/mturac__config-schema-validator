@@ -1,0 +1,18 @@
+{
+  "name": "config-schema-validator",
+  "version": "0.1.0",
+  "description": "Validate app config files (YAML, TOML, JSON) against schemas and suggest auto-fixes for common misconfigurations.",
+  "author": {
+    "name": "mturac"
+  },
+  "skills": [
+    "skills/config-scan",
+    "skills/config-fix",
+    "skills/config-schema"
+  ],
+  "commands": [
+    "commands/config-validate.md",
+    "commands/config-fix.md",
+    "commands/config-schema.md"
+  ]
+}
